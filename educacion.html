@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida de Christian Solís</title>
+  </head>
+  <body>
+    <header>
+      <svg width="150px" height="150px" viewBox="0 0 150 150">
+        <image width="150px" height="150px" xlink:href="images/LogoSVG.svg"/>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Christian Solís</h2>
+      <h3>
+        22 de Noviembre de 1981<br />
+        Guayaquil, Ecuador</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <table border="1">
+      <thead>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>Culminó?</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1986</td>
+          <td>San José La Salle</td>
+          <td>Guayaquil, Ecuador</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>Universidad Católica Santiago de Guayaquil</td>
+          <td>Guayaquil, Ecuador</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>Edcom</td>
+          <td>Guayaquil, Ecuador</td>
+          <td>Sí</td>
+        </tr>
+      </tbody>
+      <tfooter></tfooter>
+    </table>
+    <br/>
+    <legend><strong>Agregar Estudios</strong></legend>
+    <form id="frmAgregarEstudio">
+      <label for="lblanio">Año:</label>
+      <select id="cbanio">
+        <option>2016</option>
+        <option>2017</option>
+      </select><br/>
+      <label for="lblinstitución">Institución:</label>
+      <input type="text" size="20" id="txtinstitucion" required/><br/>
+      <label for="lbllugar">Lugar:</label>
+      <textarea rows="10" cols="50" id="txtlugar"></textarea><br/>
+      <label for="lblculmino">Culminó:</label>
+      <input type="radio" name="rdbculmino" value="1">Sí
+      <input type="radio" name="rdbculmino" value="0">No <br/>
+      <input type="submit" value="Enviar">
+    </form>
+    <footer>
+      Derechos Reservados
+      <ul>
+        <li><strong>Email:</strong><a href="mailto:christian_solis3000@hotmail.com">christian_solis3000@hotmail.com</a></li>
+        <li><strong>Teléfono:</strong>+59342783065</li>
+        <li><strong>Dirección:</strong>Barrio La Libertad, Av. 12 S/N y Calle 20</li>
+      </ul>
+    </footer>
+  </body>
+</html>
